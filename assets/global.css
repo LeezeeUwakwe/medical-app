@@ -63,4 +63,21 @@ html {
   font-family: "Avenir LT Std", sans-serif;
   background-color: #FAFAFA;
 }
-
+ .total-number {
+  color: #292929;
+  font-weight: 600;
+  font-size: 14px;
+ }
+ .total-text {
+  color: #292929;
+  font-size: 10px;
+ }
+ .cdc-legend-item-color {
+    width: 30px !important;
+    height: 8px !important;
+    border-radius: 20px !important;
+ }
+ .cdc-legend-item {
+  margin: 1.5em !important;
+  font-size: 11px;
+}

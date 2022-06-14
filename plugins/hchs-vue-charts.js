@@ -1,5 +1,5 @@
-import Vue from "vue";
+// import Vue from "vue";
 
-import "hchs-vue-charts";
+// import "hchs-vue-charts";
 
-Vue.use(window.VueCharts);
+// Vue.use(window.VueCharts);

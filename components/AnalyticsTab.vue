@@ -25,14 +25,18 @@
            <div class="chart-wrapper">
             <div class="line-chart">
               <h1 class="chart-title">Pateints</h1>
-            <LineChart />
+            <DoubleLineChart />
           </div>
 
         <div class="doughChart-wrapper">
           <h1 class="chart-title">Gender</h1>
+
+        <div class="chart__wrapper">
       <DoughnutChart />
+
         </div>
-           </div>
+        </div>
+      </div>
            
         
       </div>          
@@ -437,10 +441,14 @@
   justify-content: space-between;
 }
 
+.chart__wrapper {
+  margin-top: 50px;
+}
+
 
 .line-chart {
   width: 70%;
-  // height: 300px;
+  height: 350px;
 }
 .chart-title {
   font-size: 14px;
